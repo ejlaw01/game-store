@@ -4,7 +4,7 @@ import { FormsModule }   from '@angular/forms';
 import { AppComponent }   from './app.component';
 import { GameListComponent } from './game-list.component';
 import { GameCheckoutComponent } from './game-checkout.component';
-import { FilterPipe } from './filter.pipe';
+// import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   imports: [
@@ -14,8 +14,8 @@ import { FilterPipe } from './filter.pipe';
   declarations: [
     AppComponent,
     GameListComponent,
-    GameCheckoutComponent,
-    FilterPipe
+    GameCheckoutComponent
+    // FilterPipe
   ],
   bootstrap:    [ AppComponent ]
 })

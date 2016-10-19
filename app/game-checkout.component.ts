@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Game } from './game.model'
+import { Game } from './game.model';
 
 @Component({
   selector: 'game-checkout',
@@ -7,6 +7,6 @@ import { Game } from './game.model'
   `
 })
 
-export class AppComponent {
-  
+export class GameCheckoutComponent {
+
 }
