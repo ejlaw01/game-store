@@ -1,0 +1,32 @@
+body {
+  background-color: #fffffa;
+}
+
+h1 {
+  color: #71F79f;
+}
+
+h3 {
+  color: #71F79F;
+}
+
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-color: #343434;
+}
+
+.display-items {
+  margin-left: 300px;
+  height: 200px;
+  border-bottom: 2px solid #71F79F;
+}
+
+.display-items:first-child {
+  margin-top: 200px;
+}

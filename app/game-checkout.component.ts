@@ -4,6 +4,8 @@ import { Game } from './game.model';
 @Component({
   selector: 'game-checkout',
   template: `
+  <div>
+  </div>
   `
 })
 

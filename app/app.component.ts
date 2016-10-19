@@ -5,11 +5,15 @@ import { Game } from './game.model';
 @Component({
   selector: 'my-app',
   template: `
-  <h1>Same Room Games</h1>
-  <h2>be together.</h2>
+  <div class="header">
+    <h1>Same Room Games</h1>
+    <h3>be together.</h3>
+  </div>
+  <div class="sidebar">
+    <h4>Filter by...</h4>
+  </div>
   <game-list
     [childGameList] = "masterGameList"
-    (clickedGame) = "showDetails($event)"
   ></game-list>
   <game-checkout></game-checkout>
   `
@@ -28,8 +32,4 @@ export class AppComponent {
     new Game("Warhammer 40000", "Games Workshop", "Miniatures Game", "War", 2800.00, 2, 8, 120, 12, 1),
     new Game("Hungry, Hungry Hippos", "Hasbro", "Classic", "Agility", 20.01, 2, 4, 1, 4, 5),
   ];
-  selectedGame: Game = null;
-  showDetails(clickedGame: Game) {
-    this.selectedGame = clickedGame;
-  }
 }
