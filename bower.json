@@ -1,0 +1,17 @@
+{
+  "name": "game-store",
+  "description": "an angular website to keep track a catalogue of board games",
+  "main": "",
+  "authors": [
+    "Ethan Law and Kyle Lange"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
