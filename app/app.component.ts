@@ -9,9 +9,8 @@ import { Game } from './game.model';
     <h3>be together.</h3>
   </div>
   <game-list
-    [childGameList] = "masterGameList"
+    [childGameList]="masterGameList"
   ></game-list>
-  <game-checkout></game-checkout>
   `
 })
 

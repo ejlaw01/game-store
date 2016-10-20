@@ -5,6 +5,7 @@ import { AppComponent }   from './app.component';
 import { GameListComponent } from './game-list.component';
 import { GameCheckoutComponent } from './game-checkout.component';
 import { FilterPipe } from './filter.pipe';
+import { CheckoutPipe } from './checkout.pipe';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { FilterPipe } from './filter.pipe';
     AppComponent,
     GameListComponent,
     GameCheckoutComponent,
-    FilterPipe
+    FilterPipe,
+    CheckoutPipe
   ],
   bootstrap:    [ AppComponent ]
 })
